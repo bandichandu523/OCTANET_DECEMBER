@@ -1,0 +1,143 @@
+body{
+    background-image:url('body.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    opacity:1;
+    }
+    .head {
+      overflow:hidden;
+      background-color: #333;
+    }
+    .head .logo{
+    float: left;
+      padding: 10px 16px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+    .head a{
+     float: right;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    a:hover{
+    background-color:#ddd;
+    }
+    .cricket{
+    height:100%;
+    width:100%;
+    flex: 0 0 auto;
+    margin:auto;
+    background-image:url('cup.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    
+    }
+    .match{
+    height:80%;
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow:auto;
+    overflow-x:auto;
+    margin:auto;
+    }
+    .team{
+    height:200px;
+    width:100%;
+    display: flex;
+     flex-wrap: nowrap;
+     overflow-x: auto;
+    margin:auto;
+    }
+    .comtact1{
+     font-family: "Lucida Console", "Courier New", monospace;
+    }
+    .player{
+    height:400px;
+    width:100%;
+    display: flex;
+     flex-wrap: nowrap;
+     overflow-x: auto;
+    overflow-y: hidden;
+    margin:auto;
+    }
+    .team::-webkit-scrollbar { 
+                    display: none; 
+                } 
+    .match::-webkit-scrollbar { 
+                    display: none; 
+                } 
+    .player::-webkit-scrollbar { 
+                    display: none; 
+                } 
+    
+    body::-webkit-scrollbar { 
+                    display: none; 
+                } 
+    
+    .box{
+    background-color:white;
+    height:130px;
+    width:180px;
+    margin:10px 10px;
+    flex: 0 0 auto;
+    border-radius:20px;
+    opacity:0.5;
+    
+    }
+    .box1{
+    background-color: rgba(255, 255,255,0.5);
+    height:90%;
+    width:30%;
+    margin:20px 20px;
+    flex: 0 0 auto;
+    border-radius:20px;
+    display:flex;
+    
+    }
+    .box2{
+    background-color:red;
+    height:80%;
+    width:60%;
+    margin:20px 20px;
+    flex: 0 0 auto;
+    border-radius:20px;
+    display:flex;
+    
+    }
+    .box:hover{
+    transform:scale(1.1,1.1);
+    opacity:1;
+    }
+    .news{
+    width:100%;
+    height:90%;
+    float:bottom;
+    margin:auto;
+    text-align:center;
+    font-size:30px;
+    font-family: 'Courier New', monospace;
+    background-color: rgba(255, 255,255,0.2);
+    border-radius:10px;
+    color:white;
+    }
+    img{
+    border-radius:20px;
+    width:100%;
+    height:100%;
+    }
+    .details{
+    left:0;
+    background-color:white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align:center;
+    color:red;
+    margin:100px;
+    }
+    #photo{
+    width:50%;
+    }
